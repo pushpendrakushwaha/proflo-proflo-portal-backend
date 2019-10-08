@@ -1,0 +1,16 @@
+version: '3.0'
+services:
+  core-microservice-backend:
+    image: proflo/core-microservice-backend
+    build: .
+    ports:
+      - "5004:80"
+    depends_on:
+      - core-microservice-db
+    environment:
+      ASPNETCORE_ENVIRONMENT: Production
+      mongo_db: "mongodb://core-microservice-db:27017"
+  core-microservice-db:
+    image: mvertes/alpine-mongo
+    ports:
+      - "29017:27017"

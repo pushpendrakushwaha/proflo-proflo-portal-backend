@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29102.190
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProfloPortalBackend", "ProfloPortalBackend\ProfloPortalBackend.csproj", "{BF22EC39-2420-4872-A173-0494A3958646}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProfloPortalBackendTest", "ProfloPortalBackendTest\ProfloPortalBackendTest.csproj", "{B4B136D9-E0FA-4CEF-9999-88C53237EAD5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CCE022E8-EB04-409F-A398-E0CCC4EEEC3A}"
+	ProjectSection(SolutionItems) = preProject
+		.gitlab-ci.yml = .gitlab-ci.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF22EC39-2420-4872-A173-0494A3958646}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF22EC39-2420-4872-A173-0494A3958646}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF22EC39-2420-4872-A173-0494A3958646}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{BF22EC39-2420-4872-A173-0494A3958646}.Debug|x64.Build.0 = Debug|Any CPU
+		{BF22EC39-2420-4872-A173-0494A3958646}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{BF22EC39-2420-4872-A173-0494A3958646}.Debug|x86.Build.0 = Debug|Any CPU
+		{BF22EC39-2420-4872-A173-0494A3958646}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF22EC39-2420-4872-A173-0494A3958646}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF22EC39-2420-4872-A173-0494A3958646}.Release|x64.ActiveCfg = Release|Any CPU
+		{BF22EC39-2420-4872-A173-0494A3958646}.Release|x64.Build.0 = Release|Any CPU
+		{BF22EC39-2420-4872-A173-0494A3958646}.Release|x86.ActiveCfg = Release|Any CPU
+		{BF22EC39-2420-4872-A173-0494A3958646}.Release|x86.Build.0 = Release|Any CPU
+		{B4B136D9-E0FA-4CEF-9999-88C53237EAD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4B136D9-E0FA-4CEF-9999-88C53237EAD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4B136D9-E0FA-4CEF-9999-88C53237EAD5}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{B4B136D9-E0FA-4CEF-9999-88C53237EAD5}.Debug|x64.Build.0 = Debug|Any CPU
+		{B4B136D9-E0FA-4CEF-9999-88C53237EAD5}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B4B136D9-E0FA-4CEF-9999-88C53237EAD5}.Debug|x86.Build.0 = Debug|Any CPU
+		{B4B136D9-E0FA-4CEF-9999-88C53237EAD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4B136D9-E0FA-4CEF-9999-88C53237EAD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4B136D9-E0FA-4CEF-9999-88C53237EAD5}.Release|x64.ActiveCfg = Release|Any CPU
+		{B4B136D9-E0FA-4CEF-9999-88C53237EAD5}.Release|x64.Build.0 = Release|Any CPU
+		{B4B136D9-E0FA-4CEF-9999-88C53237EAD5}.Release|x86.ActiveCfg = Release|Any CPU
+		{B4B136D9-E0FA-4CEF-9999-88C53237EAD5}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CAE83DF0-01AF-4CD1-850D-4406A9B38EA9}
+	EndGlobalSection
+EndGlobal
